@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+body{
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.timerDisplay{
+  width: 215px;
+  height: 32px;
+  padding: 12px 119px 22px 38px;
+  background-color: blue;
+  text-align: center;
+}
+
+.buttons{
+  
+}
+
+#stopBtn{
+  padding: 6px 20px 20px 20px;
+  background-color: black;
+  border-radius: 10px;
+}
+#startBtn{
+  padding: 6px 20px 20px 20px;
+  background-color: black;
+  border-radius: 10px;
+}
+#resetBtn{
+  padding: 6px 20px 20px 20px;
+  background-color: black;
+  border-radius: 10px;
+}
